@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'HBO Onderzoek Leeromgeving',
-  description: 'Leer onderzoek doen op HBO-niveau met interactieve lessen en AI-begeleiding',
+  title: 'HAN Onderzoek Leeromgeving',
+  description: 'Leer onderzoek doen op HBO-niveau met interactieve lessen en AI-begeleiding - HAN University of Applied Sciences',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="nl">
-      <body className="bg-gray-100 min-h-screen" suppressHydrationWarning={true}>
+      <body className="han-body bg-gray-50 min-h-screen" suppressHydrationWarning={true}>
         {children}
       </body>
     </html>
